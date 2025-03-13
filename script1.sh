@@ -1,3 +1,3 @@
 #!/bin/bash
-cal
-date;df -Th
+who
+echo "A new module has been added"
