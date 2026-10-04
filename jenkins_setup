@@ -3,8 +3,8 @@ yum install git -y
 yum install java-21* -y
 cd /opt
 wget https://downloads01-he-fi.apache.org/maven/maven-3/3.9.16/binaries/apache-maven-3.9.16-bin.tar.gz
-tar zxvf apache-maven-3.9.15-bin.tar.gz
-mv apache-maven-3.9.15 maven
+tar zxvf apache-maven-3.9.16-bin.tar.gz
+mv apache-maven-3.9.16 maven
 cd ~
 echo "JAVA_HOME=/usr/lib/jvm/java-21-amazon-corretto.x86_64" >> .bash_profile
 echo "M2_HOME=/opt/maven" >> .bash_profile
